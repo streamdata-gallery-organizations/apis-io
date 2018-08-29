@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - APIs.io",
+	"description": "This is a repository of apis.io APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/apis-io.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://apis-io.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "APIs.io",
+			"x-api-slug": "apis-io",
+			"description": "Find all the APIs you need to build your successful projects. APIs.io is the first search engine for APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/95-apis-io.jpg",
+			"humanURL": "http://apis.io/",
+			"baseURL": "http://apis.io/api/",
+			"tags": "APIs.io",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/apis-io/master/_listings/apis-io/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "APIs.io",
+	"include": [
+		{
+			"name": "APIs.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/apis-io/master/_listings/apis-io/apis.yaml"
+		}
+	]
+}
